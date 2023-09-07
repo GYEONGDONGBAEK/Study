@@ -91,6 +91,7 @@ SELECT test1 as "alias Test" FROM test
 문자열을 병합할 수 있도록 도와주는 함수다.
 
 Oracle 에서는 인수가 2개이기 때문에 만약 3개 이상의 인수를 병합시키려고 하면 || 연산자를 사용하는것이 더 좋다.
+SQL server 에서는 || 연산자 대신 + 를 사용한다.
 
 ```sql
 SELECT CONCAT(문자열, 문자열) FROM 테이블;
